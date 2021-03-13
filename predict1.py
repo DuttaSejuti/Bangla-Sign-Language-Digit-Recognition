@@ -51,64 +51,44 @@ while True:
 
     if prediction[0][0] == 'ZERO':
         img=cv2.imread('F:\\sjt\\labels\\zero.png')
-        #speak("শূন্য",lang="bn")
-        #os.system("digit 0.wav")
-        #playsound.playsound('0.wav', True)
-        #winsound.PlaySound("0.wav",winsound.SND_FILENAME )
+        speak("শূন্য",lang="bn")
+        
     elif prediction[0][0] == 'ONE':
         img = cv2.imread('F:\\sjt\\labels\\one.png')
-        #speak("এক",lang="bn")
-        #os.system("digit 1.wav")
-        #playsound.playsound('1.wav', True)
-        #winsound.PlaySound("1.wav", winsound.SND_FILENAME )
+        speak("এক",lang="bn")
+        
     elif prediction[0][0] == 'TWO':
         img = cv2.imread('F:\\sjt\\labels\\two.png')
-        #speak("দুই",lang="bn")
-        #os.system("digit 2.wav")
-        #playsound.playsound('2.wav', True)
-        #winsound.PlaySound("2.wav", winsound.SND_FILENAME )
+        speak("দুই",lang="bn")
+        
     elif prediction[0][0] == 'THREE':
         img = cv2.imread('F:\\sjt\\labels\\three.png')
-        #speak("তিন",lang="bn")
-        #os.system("digit 3.wav")
-        #playsound.playsound('3.wav', True)
-        #winsound.PlaySound("3.wav",winsound.SND_FILENAME)
+        speak("তিন",lang="bn")
+        
     elif prediction[0][0] == 'FOUR':
         img = cv2.imread('F:\\sjt\\labels\\four.png')
-        #speak("চার",lang="bn")
-        #os.system("digit 4.wav")
-        #playsound.playsound('4.wav', True)
-        #winsound.PlaySound("4.wav",winsound.SND_FILENAME)
+        speak("চার",lang="bn")
+        
     elif prediction[0][0] == 'FIVE':
         img = cv2.imread('F:\\sjt\\labels\\five.png')
-        #speak("পাঁচ",lang="bn")
-        #os.system("digit 5.wav")
-        #playsound.playsound('5.wav', True)
-        #winsound.PlaySound("5.wav",winsound.SND_FILENAME )
+        speak("পাঁচ",lang="bn")
+       
     elif prediction[0][0] == 'SIX':
         img = cv2.imread('F:\\sjt\\labels\\six.png')
-        #speak("ছয়",lang="bn")
-        #os.system("digit 6.wav")
-        #playsound.playsound('6.wav', True)
-        #winsound.PlaySound("6.wav",winsound.SND_FILENAME )
+        speak("ছয়",lang="bn")
+       
     elif prediction[0][0] == 'SEVEN':
         img = cv2.imread('F:\\sjt\\labels\\seven.png')
-        #speak("সাত",lang="bn")
-        #os.system("digit 7.wav")
-        #playsound.playsound('7.wav', True)
-        #winsound.PlaySound("7.wav",winsound.SND_FILENAME)
+        speak("সাত",lang="bn")
+       
     elif prediction[0][0] == 'EIGHT':
         img = cv2.imread('F:\\sjt\\labels\\eight.png')
-        #speak("আট",lang="bn")
-        #os.system("digit 8.wav")
-        #playsound.playsound('8.wav', True)
-        #winsound.PlaySound("8.wav",winsound.SND_FILENAME)
+        speak("আট",lang="bn")
+        
     elif prediction[0][0] == 'NINE':
         img = cv2.imread('F:\\sjt\\labels\\nine.png')
-        #speak("নয়",lang="bn")
-        #os.system("digit 9.wav")
-        #playsound.playsound('9.wav', True)
-        #winsound.PlaySound("9.wav",  winsound.SND_FILENAME )
+        speak("নয়",lang="bn")
+        
 
     img_height, img_width, _ = img.shape
     x = 100
