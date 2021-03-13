@@ -2,9 +2,9 @@
 This is a final project that is done for my last semester of graduation from JU. It is a SLR that can detect bangla 0-9 sign digits from real time video.  
 
 ## Requirements
-  Tensorflow 2.4.1
-  python 3.8.6
-  can run without GPU support
+  1. Tensorflow 2.4.1
+  2. python 3.8.6
+  3. can run without GPU support
   
   
   #### collect-data.py
