@@ -15,6 +15,8 @@ This is a final project that is done for my last semester of graduation from JU.
   
   #### display_all_gestures.py
   this file creates an image file (full_img) showing random picture of the sample images for each class.
+  ![image](https://user-images.githubusercontent.com/43231956/111033253-745aa800-843a-11eb-8e2a-93af004f2619.png)
+
   
   #### train1.py
   this file simply train the model.
